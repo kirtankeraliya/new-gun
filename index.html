@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
-
-    <!-- If using a locally installed file -->
     <link href="output.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        Buy or sell new & used guns
-    </div>
-    <div>
-        gun
-    </div>
-</body>
+
+    <body>
+        <div style="background-image: url(/img/Homepage.jpg);" class="bg-no-repeat bg-cover h-screen">
+            <div class="container">
+                <div class="flex justify-between items-center pt-8 ">
+                    <div class="logo"><img src="img/Light Logo.png" alt=""></div>
+                    <div class="nav bg-beigeone p-1.5  rounded-xl">
+                        <ul class="flex">
+                            <li class="font-medium py-2.5 px-6 ">Buy</li>
+                            <li class="font-medium py-2.5 px-6 ">Sell</li>
+                            <li class="font-medium py-2.5 px-6 ">News&Events</li>
+                            <li class="font-medium py-2.5 px-6 ">About</li>
+                            <li class="font-medium py-2.5 px-6">Contact</li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-2">
+                        <button
+                            class="bg-transparent border-2 font-medium leading-6 text-white rounded-lg border-white py-2.5 px-5">Login</button>
+                        <button
+                            class="bg-green font-medium leading-6 text-white rounded-lg border-none py-2.5 px-5">Register</button>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-orange flex justify-center items-center pt-32 tracking-widest">WELCOME TO
+                        COLLECTING GUNS </span>
+                </div>
+                <div>
+                    <h1 class="font-bold text-white text-6xl pt-8 flex justify-center font-serif items-center">Buy or sell new & used guns</h1>
+                </div>
+                <div class="mt-4">
+                    <p class="flex justify-center items-center text-white tracking-widest">Collecting Guns is a global online auction platform devoted to guns and gun</p>
+                    <p class="flex justify-center items-center text-white tracking-widest">accessories. We are open for bids 24/7 with new auctions going live every day.</p>
+                </div>
+                <div class="flex justify-center items-center gap-5 pt-10">
+                    <div class="flex pl-5 rounded-xl space-x-3 bg-beigeone">
+                        <input class="bg-beigeone py-3.5 pl-5 pr-14 border-none outline-none"
+                            placeholder="What are you looking for?" type="text">
+                        <div class="flex justify-center items-center">
+                            <img class="pr-5 py-4" src="img/serachicon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center border-r-2 border-solid border-beige opacity-30 py-10">
+                    </div>
+                    <div class="flex justify-center items-center gap-2">
+                        <button class="bg-orange border-none text-white rounded-lg py-2.5 px-6">View
+                            all listings</button>
+                        <button class="bg-transparent border-2 text-white rounded-lg border-white py-2.5 px-6">Sell your gun</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </body>
+
 </html>

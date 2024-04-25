@@ -19,7 +19,7 @@ module.exports = {
         'capi':['CapitoliumNews2','sans-serif']
       },
       spacing: {
-        30: "30px",
+        30:"30px",
         38:"38px"
       },
       fontSize: {
