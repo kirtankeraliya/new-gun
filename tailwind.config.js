@@ -42,6 +42,14 @@ module.exports = {
         xl: "1280px",
       },
     },
+    backgroundImage: {
+      'gunbg': "url('/img/gun-slide.png')",
+      'gunbg1': "url('/img/Rectangle7.png')",
+      'bg1': "url('/img/Rectangle28.png')",
+      'bg2': "url('/img/Rectangle29.png')",
+      'bg3': "url('/img/Rectangle30.png')",
+    },
+
   },
   variants: {},
   plugins: [],
